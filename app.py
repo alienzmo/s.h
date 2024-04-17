@@ -11,12 +11,12 @@ def push():
         nonlocal future
         future.set_result(msg)
 
-    await nc.connect(servers=["nats://demo.nats.io:4222"])
-    await nc.subscribe("time", cb=sub)
+        await nc.connect(servers=["nats://demo.nats.io:4222"])
+        await nc.subscribe("time", cb=sub)
 
-    unique_reply_to = nc.new_inbox()
-    await nc.publish("time", b'', unique_reply_to)
+        unique_reply_to = nc.new_inbox()
+        await nc.publish("time", b'', unique_reply_to)
 
     # Use the response
-    msg = await asyncio.wait_for(future, 1)
-    print("Reply:", msg)
+        msg = await asyncio.wait_for(future, 1)
+        print("Reply:", msg)
