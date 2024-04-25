@@ -1,0 +1,10 @@
+2024-04-25T10:39:58.620071932 0.082260s notice: Recursively removing directory /workspaces/s.h/rethinkdb_data/tmp
+2024-04-25T10:39:58.639149005 0.101337s notice: Initializing directory /workspaces/s.h/rethinkdb_data
+2024-04-25T10:39:58.651799972 0.113988s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/workspaces/s.h/rethinkdb_data' did not already exist or is empty.)
+2024-04-25T10:39:58.652355027 0.114543s notice: Running rethinkdb 2.4.4~0focal (x86_64-linux-gnu) (GCC 9.4.0)...
+2024-04-25T10:39:58.655079970 0.117268s notice: Running on Linux 6.2.0-1019-azure x86_64
+2024-04-25T10:39:58.655225732 0.117414s notice: Loading data from directory /workspaces/s.h/rethinkdb_data
+2024-04-25T10:39:58.822168368 0.284356s info: Automatically using cache size of 1859 MB
+2024-04-25T10:39:58.825547000 0.287735s notice: Listening for intracluster connections on port 29015
+2024-04-25T10:39:58.845680524 0.307868s notice: Listening for client driver connections on port 28015
+2024-04-25T10:39:58.895273076 0.357461s error: Could not bind to http port: The address at localhost:8080 is reserved or already in use.
