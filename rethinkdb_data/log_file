@@ -8,3 +8,10 @@
 2024-04-25T10:39:58.825547000 0.287735s notice: Listening for intracluster connections on port 29015
 2024-04-25T10:39:58.845680524 0.307868s notice: Listening for client driver connections on port 28015
 2024-04-25T10:39:58.895273076 0.357461s error: Could not bind to http port: The address at localhost:8080 is reserved or already in use.
+2024-04-25T10:45:15.093810025 0.017832s notice: Running rethinkdb 2.4.4~0focal (x86_64-linux-gnu) (GCC 9.4.0)...
+2024-04-25T10:45:15.096220820 0.020243s notice: Running on Linux 6.2.0-1019-azure x86_64
+2024-04-25T10:45:15.096265965 0.020288s notice: Loading data from directory /workspaces/s.h/rethinkdb_data
+2024-04-25T10:45:15.139996462 0.064018s info: Automatically using cache size of 1804 MB
+2024-04-25T10:45:15.140632210 0.064654s notice: Listening for intracluster connections on port 29015
+2024-04-25T10:45:15.141786762 0.065809s notice: Listening for client driver connections on port 28015
+2024-04-25T10:45:15.188969669 0.112992s error: Could not bind to http port: The address at localhost:8080 is reserved or already in use.
